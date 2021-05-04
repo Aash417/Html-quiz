@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head><title>Start quiz</title>
+    <style>
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("img_b1.jpg");
+  background-size: cover;
+
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+  color: #9D6CF9 ;
+  font-size: 50px;
+}
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+body{
+}
+.box{
+  position: absolute;
+  top:5%;
+  left:37%;
+  width: 400px;
+  padding: 40px;
+  background:rgba(0,0,0,.4);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.5);
+  border-radius: 10px;11
+  margin:100px auto; 
+}
+h1{
+    margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 150%;
+  font-family:Comic Sans MS;
+}
+.button{
+  background: transparent;
+  border: none;
+  outline: none;
+  background: #B2DFDB;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin: 25px;
+}
+.button:hover{
+  background: #4DB6AC;
+
+}
+    </style>
+</head>
+<body>
+  <div class="box">
+  <h1>START YOUR QUIZ</h1>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+  <a href="php.php">PHP</a>
+  <a href="html.php">HTML</a>
+  <a href="css.php">CSS</a><br>
+  <a href="javascript.php">JAVASCRIPT</a>
+  <a href="jquery.php">JQUERY</a>
+
+  </div>
+</div>
+
+    <button type="button" style="font-size:30px;cursor:pointer" class="button"  onclick="openNav()"><span>Select your topic</span></button>
+  </div>
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+     
+</body>
+</html>

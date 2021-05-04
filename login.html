@@ -1,0 +1,118 @@
+<html>
+
+<head>
+	<title>Login Page</title>
+	<style>
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-image: url("img_b.jpg");
+	background-size: cover;
+}
+.box{
+	position: absolute;
+	top:5%;
+	left:37%;
+	width: 400px;
+	padding: 40px;
+	background:rgba(0,0,0,.8);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+	border-radius: 10px; 
+}
+h1{
+	margin: 0 0 30px;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+	font-size: 300%;
+}
+.img{
+	width: 25%;
+	border-radius: 80px;
+	padding: 10px;
+	margin-left: 100px;
+	margin-bottom: 60px;
+
+}
+.inputbox{
+	position: relative;
+}
+.box .inputbox  input{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	background: transparent;
+	letter-spacing: 1px;
+}
+.box .inputbox  input:focus{
+	border-color: #2ecc71;
+}
+ label{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	pointer-events: none;
+	transition: .5s;
+}
+.box .inputbox input:focus ~ label,
+.box .inputbox input:valid ~ label{
+	top: -18px;
+	left: 0;
+	color: #fff;
+	font-size: 12px;
+	color: #0F9FFD
+}
+input[type="submit"],input[type="button"]{
+	background: transparent;
+	border: none;
+	outline: none;
+	background: #03a9f4;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 3px;
+	font-size: 20px;
+}
+input[type="submit"]:hover,input[type="button"]:hover{
+	color: black;
+	background-image: linear-gradient(to right, green , yellow);
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+	</style>
+	<script>
+		
+	</script>
+</head>
+<body>
+	
+<div class="box">
+		<h1>Login </h1>
+<div>		
+<img src="log-i.png" class="img">
+</div>
+	<form action=login2.php method="post">	
+
+		<div class="inputbox">
+			<input type ="text" name="name"  required>
+			<label>Username</label>
+		</div>
+		<div class="inputbox">
+			<input type ="Password" name="password"   required>
+			<label>Password</label>
+		</div>
+	<input type ="submit" value="Login">
+	<a href="signup.php"><input type="button" value="Signup"></a>
+
+	</form>
+</div>
+</body>
+</html>

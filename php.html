@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html>
+  <title>PHP Quiz</title>
+
+  <body>
+    <form id="regForm" action="ans_con.php" method="post">
+      <h1>PHP Quiz:</h1>
+      <div class="tab">
+        <div id="quizmain">
+          <div id="quizcontainer">
+            <h3>Question 1 of 20:</h3>
+            <p id="qtext">What does PHP stand for?</p>
+            <div id="block">
+              <div id="altcontainer">
+                <label class="radiocontainer" id="label3">
+                  PHP:Hypertext Preprocessor<input
+                    type="radio"
+                    name="q1"
+                    value="1" /><span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >Private Home Page<input type="radio" name="q1" value="0" />
+                  <span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label1"
+                  >Personal Hypertext Processor<input
+                    type="radio"
+                    name="q1"
+                    value="0" /><span class="checkmark"></span
+                ></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab">
+        <div id="quizmain">
+          <div id="quizcontainer">
+            <h3>Question 2 of 20:</h3>
+            <p id="qtext">
+              Which of the following can be used to get information sent via
+              get/post method in PHP?
+            </p>
+            <div id="block">
+              <div id="altcontainer">
+                <label class="radiocontainer" id="label3">
+                  $_REQUEST<input type="radio" name="q2" value="1" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >$REQUEST<input type="radio" name="q2" value="0" />
+                  <span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >$REQUEST_PAGE<input type="radio" name="q2" value="0" />
+                  <span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >None of the above<input type="radio" name="q2" value="0" />
+                  <span class="checkmark"></span
+                ></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab">
+        <div id="quizmain">
+          <div id="quizcontainer">
+            <h3>Question 3 of 20:</h3>
+            <p id="qtext">How do you write "Hello World" in PHP ?</p>
+            <div id="block">
+              <div id="altcontainer">
+                <label class="radiocontainer" id="label3">
+                  document.write("Hello World.!");<input
+                    type="radio"
+                    name="q3"
+                    value="0" /><span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >echo"Hello World.!";<input
+                    type="radio"
+                    name="q3"
+                    value="1" />
+                  <span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label1"
+                  >"Hello World.!";<input
+                    type="radio"
+                    name="q3"
+                    value="0" /><span class="checkmark"></span
+                ></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab">
+        <div id="quizmain">
+          <div id="quizcontainer">
+            <h3>Question 4 of 20:</h3>
+            <p id="qtext">All variables in PHP start with which symbol?</p>
+            <div id="block">
+              <div id="altcontainer">
+                <label class="radiocontainer" id="label3"
+                  >!<input type="radio" name="q4" value="0" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >$<input type="radio" name="q4" value="1" />
+                  <span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label1"
+                  >&<input type="radio" name="q4" value="0" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab">
+        <div id="quizmain">
+          <div id="quizcontainer">
+            <h3>Question 5 of 20:</h3>
+            <p id="qtext">
+              How do you get information from a form that is submitted using the
+              "get" method?
+            </p>
+
+            <div id="block">
+              <div id="altcontainer">
+                <label class="radiocontainer" id="label3"
+                  >$_GET[];<input type="radio" name="q5" value="1" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >Request.Form;<input type="radio" name="q5" value="0" />
+                  <span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label1"
+                  >Request.QueryString;<input
+                    type="radio"
+                    name="q5"
+                    value="0" /><span class="checkmark"></span
+                ></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab">
+        <div id="quizmain">
+          <div id="quizcontainer">
+            <h3>Question 6 of 20:</h3>
+            <p id="qtext">In PHP, the only way to output text is with echo</p>
+
+            <div id="block">
+              <div id="altcontainer">
+                <label class="radiocontainer" id="label3"
+                  >True<input type="radio" name="q6" value="0" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >False<input type="radio" name="q6" value="1" />
+                  <span class="checkmark"></span
+                ></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab">
+        <div id="quizmain">
+          <div id="quizcontainer">
+            <h3>Question 7 of 20:</h3>
+            <p id="qtext">
+              What is the correct way to open the file "time.txt" as readable?
+            </p>
+
+            <div id="block">
+              <div id="altcontainer">
+                <label class="radiocontainer" id="label3"
+                  >open("time.txt","read");<input
+                    type="radio"
+                    name="q7"
+                    value="0" /><span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >open("time.txt");<input type="radio" name="q7" value="0" />
+                  <span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >fopen("time.txt","r");<input
+                    type="radio"
+                    name="q7"
+                    value="1" />
+                  <span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >fopen("time.txt","r+");<input
+                    type="radio"
+                    name="q7"
+                    value="0" />
+                  <span class="checkmark"></span
+                ></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab">
+        <div id="quizmain">
+          <div id="quizcontainer">
+            <h3>Question 8 of 20:</h3>
+            <p id="qtext">
+              PHP allows you to send emails directly from a script
+            </p>
+
+            <div id="block">
+              <div id="altcontainer">
+                <label class="radiocontainer" id="label3"
+                  >True<input type="radio" name="q8" value="1" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >False<input type="radio" name="q8" value="0" />
+                  <span class="checkmark"></span
+                ></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab">
+        <div id="quizmain">
+          <div id="quizcontainer">
+            <h3>Question 9 of 20:</h3>
+            <p id="qtext">
+              Which superglobal variable holds information about headers, paths,
+              and script locations?
+            </p>
+
+            <div id="block">
+              <div id="altcontainer">
+                <label class="radiocontainer" id="label3">
+                  $_SESSION<input type="radio" name="q9" value="0" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >$_GET<input type="radio" name="q9" value="0" />
+                  <span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label1"
+                  >$_SERVER<input type="radio" name="q9" value="1" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+
+                <label class="radiocontainer" id="label1"
+                  >$_GLOBALS<input type="radio" name="q9" value="0" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab">
+        <div id="quizmain">
+          <div id="quizcontainer">
+            <h3>Question 10 of 20:</h3>
+            <p id="qtext">
+              What is the correct way to add 1 to the $count variable?
+            </p>
+
+            <div id="block">
+              <div id="altcontainer">
+                <label class="radiocontainer" id="label3">
+                  $count++;<input type="radio" name="q10" value="1" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >++count<input type="radio" name="q10" value="0" />
+                  <span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label1"
+                  >$count=+1<input type="radio" name="q10" value="0" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+
+                <label class="radiocontainer" id="label1"
+                  >count++;<input type="radio" name="q10" value="0" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab">
+        <div id="quizmain">
+          <div id="quizcontainer">
+            <h3>Question 11 of 20:</h3>
+            <p id="qtext">How do you create a cookie in PHP?</p>
+
+            <div id="block">
+              <div id="altcontainer">
+                <label class="radiocontainer" id="label3"
+                  >setcookie()<input type="radio" name="q11" value="1" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >createcookie<input type="radio" name="q11" value="0" />
+                  <span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label1"
+                  >makecookie()<input type="radio" name="q11" value="0" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab">
+        <div id="quizmain">
+          <div id="quizcontainer">
+            <h3>Question 12 of 20:</h3>
+            <p id="qtext">How do you create an array in PHP?</p>
+
+            <div id="block">
+              <div id="altcontainer">
+                <label class="radiocontainer" id="label3">
+                  $cars=array("volvo","BMW","Toyota");<input
+                    type="radio"
+                    name="q12"
+                    value="1" /><span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >$cars="volvo","BMW","Toyota";<input
+                    type="radio"
+                    name="q12"
+                    value="0" />
+                  <span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label1"
+                  >$cars=array["volvo","BMW","Toyota"];<input
+                    type="radio"
+                    name="q12"
+                    value="0" /><span class="checkmark"></span
+                ></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab">
+        <div id="quizmain">
+          <div id="quizcontainer">
+            <h3>Question 13 of 20:</h3>
+            <p id="qtext">
+              Which operator is used to check if two values are equal and of
+              same data type?
+            </p>
+
+            <div id="block">
+              <div id="altcontainer">
+                <label class="radiocontainer" id="label3">
+                  ===<input type="radio" name="q13" value="1" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >!=<input type="radio" name="q13" value="0" />
+                  <span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >=<input type="radio" name="q13" value="0" />
+                  <span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >==<input type="radio" name="q13" value="0" />
+                  <span class="checkmark"></span
+                ></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab">
+        <div id="quizmain">
+          <div id="quizcontainer">
+            <h3>Question 14 of 20:</h3>
+            <p id="qtext">
+              PHP is an example of ___________ scripting language.
+            </p>
+
+            <div id="block">
+              <div id="altcontainer">
+                <label class="radiocontainer" id="label3">
+                  Server-side<input type="radio" name="q14" value="1" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >Client-side<input type="radio" name="q14" value="0" />
+                  <span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label1"
+                  >Browser-side<input type="radio" name="q14" value="0" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+
+                <label class="radiocontainer" id="label1"
+                  >In-side<input type="radio" name="q14" value="0" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab">
+        <div id="quizmain">
+          <div id="quizcontainer">
+            <h3>Question 15 of 20:</h3>
+            <p id="qtext">
+              Which of the following function you apply in PHP to obtain the
+              ASCII value of a character?
+            </p>
+
+            <div id="block">
+              <div id="altcontainer">
+                <label class="radiocontainer" id="label3">
+                  chr();<input type="radio" name="q15" value="1" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >asc();<input type="radio" name="q15" value="0" />
+                  <span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label1"
+                  >ord();<input type="radio" name="q15" value="0" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+
+                <label class="radiocontainer" id="label1"
+                  >val();<input type="radio" name="q15" value="0" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab">
+        <div id="quizmain">
+          <div id="quizcontainer">
+            <h3>Question 16 of 20:</h3>
+            <p id="qtext">Who is known as the father of PHP?</p>
+
+            <div id="block">
+              <div id="altcontainer">
+                <label class="radiocontainer" id="label3">
+                  Rasmus Lerdorf<input type="radio" name="q16" value="1" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >Willam Makepiece<input type="radio" name="q16" value="0" />
+                  <span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label1"
+                  >Drek Kolkevi<input type="radio" name="q16" value="0" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+
+                <label class="radiocontainer" id="label1"
+                  >List Barely<input type="radio" name="q16" value="0" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab">
+        <div id="quizmain">
+          <div id="quizcontainer">
+            <h3>Question 17 of 20:</h3>
+            <p id="qtext">
+              2. _______________ is cocatenation operator in PHP ?
+            </p>
+
+            <div id="block">
+              <div id="altcontainer">
+                <label class="radiocontainer" id="label3">
+                  .(dot)<input type="radio" name="q17" value="1" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >+(plus)<input type="radio" name="q17" value="0" />
+                  <span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >^<input type="radio" name="q17" value="0" />
+                  <span class="checkmark"></span
+                ></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab">
+        <div id="quizmain">
+          <div id="quizcontainer">
+            <h3>Question 18 of 20:</h3>
+            <p id="qtext">PHP is a case sensitive</p>
+
+            <div id="block">
+              <div id="altcontainer">
+                <label class="radiocontainer" id="label3">
+                  True<input type="radio" name="q18" value="1" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >False<input type="radio" name="q18" value="0" />
+                  <span class="checkmark"></span
+                ></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab">
+        <div id="quizmain">
+          <div id="quizcontainer">
+            <h3>Question 19 of 20:</h3>
+            <p id="qtext">Which of following is not a Superglobals in PHP?</p>
+
+            <div id="block">
+              <div id="altcontainer">
+                <label class="radiocontainer" id="label3"
+                  >$_SERVER<input type="radio" name="q19" value="0" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >$_EVN<input type="radio" name="q19" value="0" />
+                  <span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label1"
+                  >$_FILES<input type="radio" name="q19" value="0" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+
+                <label class="radiocontainer" id="label1"
+                  >$_PUT<input type="radio" name="q19" value="1" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab">
+        <div id="quizmain">
+          <div id="quizcontainer">
+            <h3>Question 20 of 20:</h3>
+            <p id="qtext">
+              Which function in PHP is used to get the length of string
+              variable?
+            </p>
+
+            <div id="block">
+              <div id="altcontainer">
+                <label class="radiocontainer" id="label3">
+                  count<input type="radio" name="q20" value="0" /><span
+                    class="checkmark"
+                  ></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >strcount<input type="radio" name="q20" value="0" />
+                  <span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >strlen<input type="radio" name="q20" value="1" />
+                  <span class="checkmark"></span
+                ></label>
+
+                <label class="radiocontainer" id="label2"
+                  >len<input type="radio" name="q20" value="0" />
+                  <span class="checkmark"></span
+                ></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="float: right">
+        <button
+          type="button"
+          style="margin-right: 100px"
+          class="button"
+          id="nextBtn"
+          onclick="nextPrev(1)"
+        >
+          <span>Next</span>
+        </button>
+      </div>
+
+      <div style="text-align: center; margin-top: 40px">
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+      </div>
+    </form>
+
+    <script>
+      var currentTab = 0;
+      showTab(currentTab);
+
+      function showTab(n) {
+        var x = document.getElementsByClassName("tab");
+        x[n].style.display = "block";
+        if (n == 0) {
+          document.getElementById("prevBtn").style.display = "none";
+        } else {
+          document.getElementById("prevBtn").style.display = "inline";
+        }
+        if (n == x.length - 1) {
+          document.getElementById("nextBtn").innerHTML = "Submit";
+        } else {
+          document.getElementById("nextBtn").innerHTML = "Next";
+        }
+        fixStepIndicator(n);
+      }
+
+      function nextPrev(n) {
+        var x = document.getElementsByClassName("tab");
+        if (n == 1 && !validateForm()) return false;
+        x[currentTab].style.display = "none";
+        currentTab = currentTab + n;
+        if (currentTab >= x.length) {
+          document.getElementById("regForm").submit();
+          return false;
+        }
+        showTab(currentTab);
+      }
+
+      function validateForm() {
+        var x,
+          y,
+          i,
+          valid = true;
+        x = document.getElementsByClassName("tab");
+        y = x[currentTab].getElementsByTagName("input");
+        for (i = 0; i < y.length; i++) {
+          if (y[i].value == "") {
+            y[i].className += " invalid";
+            valid = false;
+          }
+        }
+        if (valid) {
+          document.getElementsByClassName("step")[currentTab].className +=
+            " finish";
+        }
+        return valid;
+      }
+
+      function fixStepIndicator(n) {
+        var i,
+          x = document.getElementsByClassName("step");
+        for (i = 0; i < x.length; i++) {
+          x[i].className = x[i].className.replace(" active", "");
+        }
+
+        x[n].className += " active";
+      }
+    </script>
+  </body>
+</html>
